@@ -7,14 +7,15 @@ ul li {
   display: inline;
   padding: 40px;
 }
+/*navbar link*/
 #navbar a {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
-  color: #000066;
+  color: #3e5c20;
   list-style-type: none;
   margin: auto;
-/*  padding: 0;*/
+  /*padding: 0;*/
   width: 100%;
   /*position: fixed;*/
   font-size: 15px;
@@ -22,16 +23,18 @@ ul li {
 }
 #navbar a:hover {
   font-size: 20px;
-  color: #000052;
+  color: #000 !important;
 }
 #navbar a:visited {
-  color: #E60000;
+  color: #3e5c20;
 }
 #navdiv {
- background-color: #197519;
- height: 20px;
+ background-color: #5b8731;
+ height: 25px;
  width: 100%;
+ /*border-radius: 25%;*/
+ text-align: center;
 }
-body {
-  background-image: greenbackground.img
+body{
+  background-color: #6b9345
 }
