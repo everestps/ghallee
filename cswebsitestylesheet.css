@@ -38,6 +38,7 @@ h1 {
  border-radius: 45px;
  text-align: center;
  position: fixed;
+ z-index: 1
 }
 body{
   background-color: #6b9345;
@@ -59,9 +60,11 @@ body{
   float: left;
   width: 33.3%;
   text-align: center;
+  height: 225px;
 }
 #why {
-  height: 250px;
+  width: 225px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+  position: inline;
 }
