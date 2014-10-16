@@ -40,15 +40,14 @@ h1 {
  position: fixed;
 }
 body{
-  background-color: #6b9345
+  background-color: #6b9345;
+  margin: 0;
 }
 .container{
-  padding-top: 50px;
-  margin-top: 25px;
-  padding: 15px;
+  padding-top: 65px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 15px;
 }
 ::selection{
   Background-color: #949494;
