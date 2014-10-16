@@ -60,3 +60,8 @@ body{
   width: 33.3%;
   text-align: center;
 }
+#why {
+  height: 250px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
