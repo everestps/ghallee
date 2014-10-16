@@ -67,4 +67,8 @@ body{
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   position: inline;
+  border-radius: 100%
+}
+i {
+  font-style: italic
 }
