@@ -3,12 +3,15 @@ h1 {
   Color: #4C4C4C;
   Margin: auto;
 }
-ul li {
+#navtext li {
   display: inline;
-  padding: 40px;
+  padding: 0px 40px;
+}
+#navtext {
+  margin: 0
 }
 /*navbar link*/
-#navbar a {
+#navtext a {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -21,20 +24,41 @@ ul li {
   font-size: 15px;
   font-family: garamond;
 }
-#navbar a:hover {
+#navtext a:hover {
   font-size: 20px;
   color: #000 !important;
 }
-#navbar a:visited {
+#navtext a:visited {
   color: #3e5c20;
 }
+
+
 #navdiv {
  background-color: #5b8731;
  height: 25px;
- width: 100%;
- /*border-radius: 25%;*/
+ width: 99%;
+ border-radius: 45px;
  text-align: center;
+ position: fixed;
+
 }
+
 body{
   background-color: #6b9345
+}
+#mainbody{
+  float: left;
+  height: 50px;
+  width: 20px;
+  border: solid #36511d;
+}
+.container{
+  padding-top: 50px;
+  margin-top: 25px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+::selection{
+  Background-color: #949494;
 }
