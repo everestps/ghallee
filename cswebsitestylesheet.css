@@ -32,7 +32,7 @@ h1 {
   color: #3e5c20;
 }
 #navdiv {
- background-color: #5b8731;
+ background-color: rgba(179, 196, 179, 0.9);
  height: 25px;
  width: 99%;
  border-radius: 45px;
@@ -41,7 +41,7 @@ h1 {
  z-index: 1
 }
 body{
-  background-color: #6b9345;
+  background-image: url('bg.png');
   margin: 0;
 }
 .container{
