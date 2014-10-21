@@ -3,6 +3,19 @@ h1 {
   Color: #4C4C4C;
   Margin: auto;
 }
+a{
+  text-decoration: none
+}
+body{
+  background-image: url('bg.png');
+  margin: 0;
+}
+p{
+  font-family: garamond;
+}
+i {
+  font-style: italic;
+}
 #navtext li {
   display: inline;
   padding: 0px 40px;
@@ -41,10 +54,6 @@ h1 {
  position: fixed;
  z-index: 1
 }
-body{
-  background-image: url('bg.png');
-  margin: 0;
-}
 .container{
   padding-top: 65px;
   margin-left: 5%;
@@ -70,6 +79,20 @@ body{
   position: inline;
   border-radius: 100%
 }
-i {
-  font-style: italic
+#button {
+  border-radius: 45px;
+  height: 22.5px;
+  width: 45px;
+  padding: 0;
+  background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#A8C4A8), to(#A8A9AC));
+  margin: auto;
+  float: none;
+}
+span {
+ font-size: 15px;
+ margin-top: 3.75px;
+ margin-bottom: 3.75px;
+}
+.d232 a:visited {
+  color: #4C4C4C;
 }
