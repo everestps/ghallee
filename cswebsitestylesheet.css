@@ -68,9 +68,10 @@ i {
 }
 .container div div{
   float: left;
-  width: 33.3%;
+  width: 31.3%;
   text-align: center;
   height: 225px;
+  padding: 0 1%;
 }
 #why {
   width: 225px;
