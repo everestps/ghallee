@@ -4,7 +4,7 @@ h1 {
   Margin: auto;
 }
 a{
-  text-decoration: none
+  text-decoration: none;
 }
 body{
   background-image: url('bg.png');
@@ -15,6 +15,9 @@ p{
 }
 i {
   font-style: italic;
+}
+table{
+  border: none
 }
 #navtext li {
   display: inline;
@@ -65,12 +68,13 @@ i {
 }
 .container div{
   width: 100%;
+  min-height: 245px;
+  float: left;
 }
 .container div div{
   float: left;
   width: 31.3%;
   text-align: center;
-  height: 225px;
   padding: 0 1%;
 }
 #why {
@@ -96,4 +100,20 @@ span {
 }
 .d232 a:visited {
   color: #4C4C4C;
+}
+.eredaya{
+  color:#324A1A
+}
+#samplediv{
+  background: lime;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  min-height: 0;
+  float: none;
+  border: solid 1px red;
+  margin: auto
+}
+#stan img{
+  width: 100px;
 }
