@@ -105,6 +105,7 @@ pre{
   background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#A8C4A8), to(#A8A9AC));
   margin: auto;
   float: none;
+  min-height: 0
 }
 span {
  font-size: 15px;
