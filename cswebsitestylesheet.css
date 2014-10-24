@@ -3,6 +3,11 @@ h1 {
   Color: #4C4C4C;
   Margin: auto;
 }
+h2 {
+  font-family: Garamond, Serif;
+  Color: #4C4C4C;
+  Margin: auto;
+}
 a{
   text-decoration: none;
 }
@@ -11,13 +16,21 @@ body{
   margin: 0;
 }
 p{
-  font-family: garamond;
+  font-family: Halant;
 }
 i {
   font-style: italic;
 }
+b {
+  font-style: bold;
+}
 table{
-  border: none
+  border: none;
+  font-family: Halant;
+}
+pre{
+  text-align: left;
+
 }
 #navtext li {
   display: inline;
@@ -116,4 +129,17 @@ span {
 }
 #stan img{
   width: 100px;
+}
+.d433 table tr td div{
+  background-color: mintcream;
+  height: 20px;
+  width: 20px;
+  min-height: 0;
+  float: none;
+  margin: auto;
+  border-radius: 5px;
+  border: dashed 1px black
+}
+.font-family{
+  font-family: "comic sans", Cursive
 }
